@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d89e7003-8b39-4485-85bf-711aac6d00b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance_CW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex1_Animals/Baboon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex1_Animals/Ex1_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Restaurant_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/Ex3_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/SmallStageEvent.java" afterDir="false" />
-    </list>
+    <list default="true" id="d89e7003-8b39-4485-85bf-711aac6d00b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733336165715</updated>
     </task>
+    <task id="LOCAL-00001" summary="12/12/2024">
+      <created>1734028716688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734028716688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/12/2024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
