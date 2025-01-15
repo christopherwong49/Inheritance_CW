@@ -89,7 +89,7 @@ public class Ex3_Main {
                 }
 
 
-            } else if (choice == 2) {
+            } if (choice == 2) {
                 System.out.println("What event are you searching for?");
                 String event = input.nextLine();
 
@@ -109,7 +109,7 @@ public class Ex3_Main {
                     }
                 }
 
-            } else if (choice == 3) {
+            } if (choice == 3) {
                 System.out.println("What type of even do you want to filter by?");
                 String type = input.nextLine();
 
@@ -129,7 +129,7 @@ public class Ex3_Main {
                     }
                 }
 
-            } else if (choice == 4) {
+            } if (choice == 4) {
                 for (int i = 0; i < allEvents.size(); i++) {
                     if(allEvents.get(i) instanceof MainStageEvent){
                         allEvents.get(i).printEvent();
@@ -152,7 +152,7 @@ public class Ex3_Main {
                 }
             }
 
-            else if (choice == 5) {
+            if (choice == 5) {
                 System.out.println("What main stage event are you adding tech for?");
                 String event = input.nextLine();
                 boolean isFound = false;
@@ -169,7 +169,7 @@ public class Ex3_Main {
                 }
             }
 
-            else if(choice == 6) {
+            if(choice == 6) {
                 break;
             }
         }
