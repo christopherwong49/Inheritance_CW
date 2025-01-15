@@ -1,12 +1,22 @@
 package Ex3_MusicFestival;
 
-public class SmallStageEvent extends Event{
-    private String duration;
+import java.util.ArrayList;
 
-    private String numArtists;
+public class SmallStageEvent extends Event{
+    ArrayList<String> allSongs = new ArrayList<>();
 
     public SmallStageEvent(String name, String type) {
         super(name, type);
+    }
+
+    public void addSong(String s) {
+        allSongs.add(s);
+    }
+
+    public void printSongs() {
+        for (int i = 0; i < allSongs.size(); i++) {
+            System.out.println(allSongs.get(i));
+        }
     }
 
 }

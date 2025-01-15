@@ -17,8 +17,12 @@ public abstract class Event {
         location = "tbd";
     }
 
-    public int getEventID() {
-        return eventID;
+    public void printEvent() {
+        System.out.println("Name: " + eventName);
+        System.out.println("Event ID: "+ eventID);
+        System.out.println("Event Type: " + eventType);
+        System.out.println("Time: " + time);
+        System.out.println("Location: " + location);
     }
 
     public String getEventName() {
@@ -27,18 +31,6 @@ public abstract class Event {
 
     public String getEventType() {
         return eventType;
-    }
-
-    public String getTime() {
-        return time;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
     }
 
     public void setLocation(String location) {
